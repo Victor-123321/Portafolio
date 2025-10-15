@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DEEAC11F-6C59-42F9-9342-F7DE09E24AD0}|MiPortafolio\\MiPortafolio\\MiPortafolio.csproj|c:\\users\\joldo\\source\\repos\\miportafolio\\miportafolio\\miportafolio\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEEAC11F-6C59-42F9-9342-F7DE09E24AD0}|MiPortafolio\\MiPortafolio\\MiPortafolio.csproj|solutionrelative:miportafolio\\miportafolio\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DEEAC11F-6C59-42F9-9342-F7DE09E24AD0}|MiPortafolio\\MiPortafolio\\MiPortafolio.csproj|c:\\users\\joldo\\source\\repos\\miportafolio\\miportafolio\\miportafolio\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DEEAC11F-6C59-42F9-9342-F7DE09E24AD0}|MiPortafolio\\MiPortafolio\\MiPortafolio.csproj|solutionrelative:miportafolio\\miportafolio\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 301,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\index.html",
+              "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\index.html",
+              "ToolTip": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\index.html",
+              "RelativeToolTip": "MiPortafolio\\MiPortafolio\\index.html",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwAUCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-15T20:18:30.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\wwwroot\\app.css",
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "tailwind.output.css",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\tailwind.output.css",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\tailwind.output.css",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\Components\\Layout\\NavMenu.razor.css",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\Components\\Layout\\NavMenu.razor",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\Components\\Layout\\MainLayout.razor",
@@ -118,12 +135,11 @@
               "RelativeToolTip": "MiPortafolio\\MiPortafolio\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T19:45:25.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T19:45:25.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\App.razor",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\Components\\App.razor",
@@ -135,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio.Client\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio.Client\\Pages\\Counter.razor",
@@ -147,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "MiPortafolio\\MiPortafolio\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\joldo\\source\\repos\\MiPortafolio\\MiPortafolio\\MiPortafolio\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "MiPortafolio\\MiPortafolio\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACECAAAAAAAAAAAAADwCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-16T21:44:51.415Z",
               "EditorCaption": ""
