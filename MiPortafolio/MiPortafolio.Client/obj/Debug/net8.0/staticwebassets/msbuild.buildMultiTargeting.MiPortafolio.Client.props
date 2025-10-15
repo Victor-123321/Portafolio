@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\MiPortafolio.Client.props" />
-</Project>

@@ -227,7 +227,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.7"
         },
         "runtime": {
-          "MiPortafolio.Client.dll": {}
+          "MiPortafolio.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

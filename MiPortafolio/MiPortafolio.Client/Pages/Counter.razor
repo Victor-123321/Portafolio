@@ -1,19 +1,37 @@
 ﻿@page "/counter"
-@rendermode InteractiveAuto
 
 <PageTitle>Counter</PageTitle>
+@rendermode InteractiveServer
 
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<div class="grid-cols-2 grid">
+    <div class="col-span-1">
+        <h1 class="py-24 text-center text-6xl font-bold text-gray-50">
+            THIS IS <span class="sliding-text">@CurrentWord</span>
+        </h1>
+    </div>
+    <div class="col-span-1">
+        <h1 class="py-24 text-center text-3xl text-gray-50">Hello, world!</h1>
+    </div>
+</div>
 
 @code {
-    private int currentCount = 0;
+    private string[] Words = new[] { "CHANGE", "INNOVATION", "THE FUTURE", "PROGRESS", "EVOLUTION" };
+    private int CurrentIndex = 0; // Initialize at 0 to show the first word immediately
+    private string CurrentWord = "CHANGE"; // Initialize with the first word
 
-    private void IncrementCount()
+    protected override void OnInitialized()
     {
-        currentCount++;
+        StartChangingWords();
+    }
+
+    private async Task StartChangingWords()
+    {
+        while (true)
+        {
+            await Task.Delay(2500); // Change word every 3 seconds
+            CurrentIndex = (CurrentIndex + 1) % Words.Length; // Cycle through the words
+            CurrentWord = Words[CurrentIndex];
+            InvokeAsync(StateHasChanged); // Trigger UI update on the main thread
+        }
     }
 }

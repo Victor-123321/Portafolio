@@ -1,28 +1,25 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">MiPortafolio</a>
-    </div>
-</div>
-
+﻿
 <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+<div class="w-full bg-gray-900 p-4" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex flex-row">
+
+        <div class="px-3">
+            <NavLink class="text-md px-3 text-white transition-all hover:text-gray-200" href="" Match="NavLinkMatch.All">
+                Home
+            </NavLink>
+
+        </div>
+
+        <div class="px-3">
+            <NavLink class="text-md text-white transition-all hover:text-gray-200" href="counter">
+                 Counter
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+        <div class="px-3">
+            <NavLink class="text-md text-white transition-all hover:text-gray-200" href="weather">
+                 Weather
             </NavLink>
         </div>
     </nav>

@@ -1,0 +1,8 @@
+wwwroot\app.css
+wwwroot\favicon.png
+wwwroot\Media\D3code.webp
+wwwroot\Media\Guadalahacks.webp
+wwwroot\Media\nf.webp
+wwwroot\Media\sisteventas.webp
+wwwroot\styles\animation.css
+wwwroot\styles\font.css
